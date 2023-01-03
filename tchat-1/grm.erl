@@ -1,6 +1,5 @@
 %% Copyright (C)
 %% @private
-%% @Author Alejandro Russo
 -module(grm).
 -export([parse/1, parse_and_scan/1, format_error/1]).
 -file("grm.yrl", 42).
